@@ -1,0 +1,49 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 1fr 5fr 12vh;
+}
+
+header{
+    display: grid;    
+    background-color: #fcfcfc;
+    justify-content: center;
+    align-content: center;
+}
+
+header > h1{
+    display: flex;
+    width: 70vw;
+    height: 10vh;
+    background-color: #fcfcfc;
+    box-shadow: 0px 4px 4px rgba(0, 4, 4, 0.1);
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -------------------------------------------- */
+.feeling-graph-main{
+    display: grid;
+    
+    background-color: #F4F4F4;
+
+    border-radius: 10px;
+
+}
+    .graph{
+        width: 70vw;
+        height: 40vh;
+        box-shadow: 0 4px 4px #39960060;
+
+    }
+    .analysis-result-font{
+        background-color: #fff;
+        box-shadow: 0 4px 4px #39960060;
+        width: 70vw;
+        height: 10vh;
+
+    }

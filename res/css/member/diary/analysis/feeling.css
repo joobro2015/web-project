@@ -1,0 +1,98 @@
+.feeling{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 1.6fr 4fr 1.6fr;
+
+}
+
+.feeling-header{
+    display: grid;
+    justify-content: center;
+}
+
+.feeling-main{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.happiness{
+    grid-area: a;
+    justify-self: center;
+    width: 5em;
+    height: 5em;
+}
+
+.excitement{
+    grid-area: b;
+    justify-self: center;
+    width: 5em;
+    height: 5em;
+}
+
+.touched{
+    grid-area: c;
+    justify-self: center;
+    width: 5em;
+    height: 5em;
+}
+
+.angry{
+    grid-area: d;
+    justify-self: center;
+    width: 5em;
+    height: 5em;
+}
+
+.anxiety{
+    grid-area: e;
+    justify-self: center;
+    width: 5em;
+    height: 5em;
+}
+
+.disappointed{
+    grid-area: f;
+    justify-self: center;
+    width: 5em;
+    height: 5em;
+}
+
+.sadness{
+    grid-area: g;
+    justify-self: center;
+    width: 5em;
+    height: 5em;
+}
+
+.calm{
+    grid-area: h;
+    justify-self: center;
+    width: 5em;
+    height: 5em;
+}
+
+.awkward{
+    grid-area: i;
+    justify-self: center;
+    width: 5em;
+    height: 5em;
+}
+
+.checking-feeling-graph{
+
+    background-color: #69BC80;
+    width: 14em;
+    height: 2em;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2em;
+}
