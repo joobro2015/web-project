@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    width: 100vw;
+
+
+}
+
+
+.header{
+    display: flex;
+    
+    flex-direction: column;
+}
+    .close-btn{
+        
+        justify-items: center;
+    }
