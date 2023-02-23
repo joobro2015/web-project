@@ -1,0 +1,32 @@
+html{
+    font-size: 16px;
+    background-color: #FCFCFC;
+}
+
+.Head-Box{
+    background-color: #FCFCFC;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 15rem;
+    height: 15rem;
+}
+
+    .large-box-named{
+
+        background-color: #69BC80;
+
+        width: 15rem;
+        height: 4.5rem;
+        border-radius: 0.625rem;
+    }
+
+    .large-box-content{
+        background-color: yellow;
+
+        width: 15rem;
+        height: 10.5rem;
+        border-radius: 0.625rem;
+    }
+
