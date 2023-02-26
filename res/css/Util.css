@@ -1,3 +1,99 @@
-.light-border-radius{
-    border-radius: 10px;
+/* ctrl+f 눌러서 필요한 값 검색해서 사용 */
+/* 추가해야 할 수치들이 생각나면 꼭 공유하고 이야기 나눈 후에 추가하세요! */
+/* 우리가 쓰는 rem 단위 정리 */
+
+/* margin */
+
+/* margin-top */
+/* 4 8 16 24 48 */
+
+.mgt-1{ margin-top: 0.25rem;}
+.mgt-2{ margin-top: 0.5rem;}
+.mgt-3{ margin-top: 1rem;}
+.mgt-4{ margin-top: 1.5rem;}
+.mgt-5{ margin-top: 3rem;}
+
+.mg-h{ margin: 1rem 2.5rem 1rem 2.5rem;}
+.mgb-5{ margin-bottom: 3rem;}
+
+/* 16, 40 */
+
+/* padding */
+
+.pd-h{
+  padding: 3.375rem 6rem 3.375rem 6rem;
+  /* 54, 96 */
 }
+.pd-lb{
+  padding: 1.5rem 0.625rem 1.5rem 0.625rem;
+  /* 24, 10 */
+}
+
+
+/* color - 값이 오를수록 진해짐.*/
+
+/* 배경 */
+/* 초록색 */
+.color-bg-green-1 { background-color: #9aefb0; }
+.color-bg-green-2 { background-color: #69bc80; }
+.color-bg-green-3 { background-color: #388b53; }
+/* 흰 색 */
+.color-bg-white-1 { background-color: #ffffff; }
+.color-bg-white-2 { background-color: #fcfcfc; }
+.color-bg-white-3 { background-color: #fafafa; }
+/* 노란색 */
+.color-bg-yellow-1 { background-color: #ffff77; }
+.color-bg-yellow-2 { background-color: #fff241; }
+.color-bg-yellow-3 { background-color: #c8c000; }
+
+/* font */
+/* font 크기 */
+
+.fs-h{
+  font-size: 1.875rem;
+}
+
+/* font 굵기 */
+.ft-7{
+  font-weight: 700;
+}
+.ft-6{
+  font-weight: 600;
+  display: inline-block;
+}
+/* border 값 */
+.border-1{ border-radius: 10px; }
+.border-2{ border-radius: 40px; }
+.border-3{ border-radius: 50px; }
+
+/* location 관련 */
+
+.lc-center-h{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 5.5rem;
+}
+
+.lc-center-b{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  height: 41.75rem;
+}
+
+.main-layout{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+
+}
+
+/* text 정렬 */
+
