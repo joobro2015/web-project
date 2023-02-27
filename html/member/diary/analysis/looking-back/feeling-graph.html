@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../../../../res/css/reset.css">
     <link rel="stylesheet" href="../../../../../res/css/util.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     
@@ -18,7 +19,8 @@
 
         <div class="feeling-graph-main">
             <div class ="graph"></div>
-            
+            <canvas id="myChart" width="20rem" height="20rem"></canvas>
+	        <script src="./chart.js"></script>
             <div class="analysis-result">
                 <p class="analysis-result-font">
                     이번달은 피곤해요가 기뻐요보다 33% 더 많이 차지했어요<br>
